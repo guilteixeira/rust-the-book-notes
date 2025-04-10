@@ -37,7 +37,7 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 ### Progresso
 | Capítulo | Status |
 |---|---|
-| 1. Getting Started | 🔄 Em andamento |
+| 1. Getting Started | 🧑‍💻 Fazendo |
 | 2. Programming a Guessing Game | ⏳ Próximo |
 | 3. Common Programming Concepts | ⏳ Próximo |
 | 4. Understanding Ownership | ⏳ Próximo  |
