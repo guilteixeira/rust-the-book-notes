@@ -12,22 +12,12 @@ Cada diretório representa um capítulo ou tópico do livro, com exemplos, teste
 
 ```
 chapter_01_getting_started/
-    hello_world.rs
-    cargo_vs_rustc.md
-
-chapter_02_programming_a_guessing_game/
-    guessing_game_notes.md
-
-chapter_03_common_programming_concepts/
-    variables.rs
-    shadowing.rs
-    types.rs
-    operators.rs
-
-chapter_04_understanding_ownership/
-    ownership.rs
-    borrowing.rs
-    slices.rs
+    installation.md
+            hello_world/
+              Cargo.toml
+                src/
+                  main.rs
+    hello_cargo.md
 ...
 ```
 
