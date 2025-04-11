@@ -11,13 +11,16 @@ Cada diretório representa um capítulo ou tópico do livro, com exemplos, teste
 
 ```
 chapter_01_getting_started/
-    installation.md
-            hello_world/
-              Cargo.toml
-                src/
-                  main.rs
-    hello_cargo.md
-...
+│
+├── notes/
+│   ├── installation.md
+│   └── hello_cargo.md
+│
+└── exercises/
+    ├── hello_world/
+    │   ├── Cargo.toml
+    │   └── src/
+    │       └── main.rs
 ```
 
 Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio por trás do código, dúvidas levantadas, ou referências externas.
