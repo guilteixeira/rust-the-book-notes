@@ -161,8 +161,8 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 ## Progresso de exercícios
 | Capítulo | Status |  
 |---|---|  
-| [1. Getting Started](chapter_01_getting_started) | 🧑‍💻 Fazendo |  
-| [2. Programming a Guessing Game](chapter_02_programming_a_guessing_game) | ⏳ Próximo |  
+| [1. Getting Started](chapter_01_getting_started) | ✅ Pronto |  
+| [2. Programming a Guessing Game](chapter_02_programming_a_guessing_game) | 🧑‍💻 Fazendo |  
 | [3. Common Programming Concepts](chapter_03_common_programming_concepts) | ⏳ Próximo |  
 | [4. Understanding Ownership](chapter_04_understanding_ownership) | ⏳ Próximo |  
 | [5. Using Structs to Structure Related Data](chapter_05_using_structs_to_structure_related_data) | ⏳ Próximo |  

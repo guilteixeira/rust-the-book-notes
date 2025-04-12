@@ -1,0 +1,1 @@
+/home/goma/Documents/rust-dev/rust-the-book-notes/chapter_01_getting_started/exercises/hello_cargo/target/debug/hello_cargo: /home/goma/Documents/rust-dev/rust-the-book-notes/chapter_01_getting_started/exercises/hello_cargo/src/main.rs
