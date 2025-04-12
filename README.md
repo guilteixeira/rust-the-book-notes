@@ -1,6 +1,6 @@
 # Rust: The Book - Anotações e possíveis lágrimas
 
-Este repositório é uma coletânea de anotações e exemplos práticos feitos durante minha leitura do livro [The Rust Programming Language ("The Book")](https://doc.rust-lang.org/book/).
+Este repositório é uma coletânea de anotações e exemplos práticos feitos durante minha leitura do livro [The Rust Programming Language ("The Book")](https://doc.rust-lang.org/book/). Para este foi utilizada a versão 1.86 do Rust.
 
 O objetivo é consolidar meu aprendizado por meio de prática ativa, testes e escrita, com foco em compreender os fundamentos da linguagem Rust e aplicá-los posteriormente na resolução de desafios no repositório [`rust-journey`](https://github.com/guilteixeira/rust-journey).
 
