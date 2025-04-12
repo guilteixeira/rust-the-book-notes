@@ -18,7 +18,7 @@ Logo após explicar sobre o que é o `Cargo` e o `Cargo.toml` e como ele pode se
 
 O livro diz que por default todo build do `Cargo` é uma build debug. O `Cargo` também cria um novo arquivo na raiz do projeto chamado `Cargo.lock`, similar a um `package-lock.json` em programas Node.JS, guardando a informação exata de quais são as dependencias utilizadas no projeto e a versão exata delas.
 
-Além do `cargo build`, podemos usar `cargo run` que magicamente executa o nosso código a partir da raiz ou qualquer pasta do Projeto que a gente esteja. Caso você não tenha usado `cargo build` o `cargo run` irá buildar na pasta `target/debug/` da mesma forma e em seguida executar o programa. Portanto, o livro diz que essa é a abordagem mais comum no dia a dia para buildar e rodar um programa em Rust.
+Além do `cargo build`, podemos usar `cargo run` que magicamente executa o nosso código a partir da raiz ou qualquer pasta do Projeto que a gente esteja. Caso você não tenha usado `cargo build` o `cargo run` irá buildar na pasta `target/debug/` da mesma forma e em seguida executar o programa. Portanto, o livro diz que essa é a abordagem mais comum no dia a dia para buildar e rodar um programa em Rust, afinal mesmo que demore um pouco mais, ele já economiza o tempo de executar dois comandos em seguida.
 
 **Dica:** Para lembrar disso com mais clareza, pense que `build` apenas contrói o pacote/projeto enquanto `run` constrói e roda o projeto.
 
