@@ -33,7 +33,7 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 - [x] 1.3 Hello, Cargo!
 
 ### ⏳ Capítulo 2: Programming a Guessing Game
-- [ ] Jogo da adivinhação
+- [x] Jogo da adivinhação
 
 ### 📘 Capítulo 3: Common Programming Concepts
 - [ ] 3.1 Variables and Mutability
