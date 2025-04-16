@@ -36,7 +36,7 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 - [x] Jogo da adivinhação
 
 ### 📘 Capítulo 3: Common Programming Concepts
-- [ ] 3.1 Variables and Mutability
+- [x ] 3.1 Variables and Mutability
 - [ ] 3.2 Data Types
 - [ ] 3.3 Functions
 - [ ] 3.4 Comments
@@ -162,8 +162,8 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 | Capítulo | Status |  
 |---|---|  
 | [1. Getting Started](chapter_01_getting_started) | ✅ Pronto |  
-| [2. Programming a Guessing Game](chapter_02_programming_a_guessing_game) | 🧑‍💻 Fazendo |  
-| [3. Common Programming Concepts](chapter_03_common_programming_concepts) | ⏳ Próximo |  
+| [2. Programming a Guessing Game](chapter_02_programming_a_guessing_game) | ✅ Pronto |  
+| [3. Common Programming Concepts](chapter_03_common_programming_concepts) | 🧑‍💻 Fazendo |  
 | [4. Understanding Ownership](chapter_04_understanding_ownership) | ⏳ Próximo |  
 | [5. Using Structs to Structure Related Data](chapter_05_using_structs_to_structure_related_data) | ⏳ Próximo |  
 | [6. Enums and Pattern Matching](chapter_06_enums_and_pattern_matching) | ⏳ Próximo |  

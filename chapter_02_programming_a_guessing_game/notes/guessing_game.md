@@ -65,3 +65,54 @@ rand = "0.9.0"
 Agora ao rodar `cargo update`, vemos que além da `rand` todas as dependencias de build também foram atualizadas e o `Cargo.toml` foi atualizado também, isso facilita demais a gestão de dependencias, utilizando ferramentas de SAST (Static Application Security Test) e SCA (Software Composition Analisys) como SonarQube, Veracode, Aikido e Github DependaBot.
 
 Observações: O livro diz que o `cargo` utiliza versionamento semantico `Semantic Versioning` ou `SemVer` o que pode ajudar no versionamento automático de updates menores que não quebram a aplicação, para mais informações vale uma lida na [documentação oficial do SemVer](http://semver.org/).
+
+
+## Usando uma `crate` baixada com `cargo`
+
+Após adicionar uma `crate` com o `cargo`, podemos utilizá-la no código, assim como fizemos com `std::io`.
+No jogo de adivinhação que criamos, usamos a `crate` `rand`, que vem de `random`(aleatório), para gerar um número aleatório dentro de um intervalo (`Range`).
+
+Para que isso aconteça, precisamos importar a **`trait`** `Rng` da `crate` `rand`, da seguinte forma:
+
+```rust 
+use rand::Rng;
+```
+**Observações**: O livro diz que irá falar sobre o que são traits no capítulo 10, então vamos esperar, não gosto de spoilers.
+
+
+## Documentação dinâmica através do `cargo doc`
+
+O Rust não para de surpreender, o `cargo` possui uma função muito bacana para documentar não só o nosso código mas todas as dependencias e crates utilizadas no nosso projeto, para isso basta usar `cargo doc --open` e ele gera uma espécie de `https://rust.rs` localmente.
+
+
+## Usando match para tratar erros de forma elegante
+
+Vimos no começo do capítulo que podemos tratar alguns erros rapidamente com o método `expect`, apesar de isso ser muito bom para tratar erros durante o desenvolvimento de um novo programa, para situações que exigem soluções mais robustas, usaremos o método `match`, o livro nos apresenta `match`de duas formas, primeiro ele usa `match` para manipular o `enum` retorno do método `cmp` que pode ser `Less`, `Greater` ou `Equal`. Fazemos isso da seguinte forma:
+
+```rust
+  match guess.cmp(&secret_number) {
+            Ordering::Less => println!("Muito baixo!"),
+            Ordering::Greater => println!("Muito alto!"),
+            Ordering::Equal => {
+                println!("Você acertou!");
+                break;
+            }
+```
+
+Repare que `cmp` é um método de `guess`, que é um inteiro recebido pelo usuário e que recebe como argumento uma referência imutável (por padrão), do número que geramos randomicamente com a crate `rand`.
+
+A outra forma como utilizamos `match` para tratar erros nesse exercício foi validando o `enum` de `Result` do **`shadowing`** que fizemos da variável guess. Vimos no início desse capítulo que `result` é um `enum`que sempre retorna `ok` ou `err`, e é exatamente o que iremos tratar, da seguinte forma:
+
+```rust
+  let guess: u32 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => continue,
+        };
+```
+
+O conceito de `shadowing` nesse ponto do livro ainda não foi muito esclarecido, mas o livro deixa claro que iremos falar disso depois. Até aqui, entenda que `shadowing` é basicamente atribuir um novo valor a uma váriavel, neste caso declaramos inicialmente guess como sendo uma **variável mutável** do tipo `String`, e agora estamos declarando novamente essa variável, como sendo imutável do tipo `u32` ou seja um `UnsignedInt`de 32bits, que é mais do que suficiente para um jogo que irá comparar valores de 0 a 100, visto que um `u32` equivale a (2^32)-1 que resulta no inteiro sem sinal 4.294.967.295.
+
+
+### Conclusão do capítulo 2
+
+Esse foi um capítulo muito mais longo do que eu imaginava a princípio, porém de um jeito fantástico, nunca imaginei ver tipagem estática, tratamento de erros e tantos recursos legais num segundo capítulo. Eu estou realmente me apaixonando por este caranguejo enferrujado.
