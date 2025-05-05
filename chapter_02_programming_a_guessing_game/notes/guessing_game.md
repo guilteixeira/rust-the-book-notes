@@ -5,11 +5,11 @@
 Este capítulo do livro foi sensacional aprendemos um monte de recursos comuns em qualquer linguagem como declarar uma variável ou capturar um input do usuário.
 Porém muita coisa tem um jeitinho `Rust` de fazer, além disso, conhecemos melhor da syntax e do porque de alguns recursos que vimos no capítulo 1.
 
-Nesse capítulo aprendemos a importar nossa primeira biblioteca, ou `crate`, como é chamada no `Rust`. A crate `std` na qual iremos utilizar a função `io`, bem semelhante ao que é visto em outras linguagens como `C` e `C++`, mas com uma sintaxe mais amigável como no `PHP`. Para importar utilizar uma `crate`, nós adicionamos em nosso código `use crate::function;`, nesse capítulo, chamamos `use std::io;`.
+Nesse capítulo aprendemos a importar nossa primeira biblioteca, ou `crate`, como é chamada no `Rust`. A crate `std` na qual iremos utilizar a função `io`, bem semelhante ao que é visto em outras linguagens como `C` e `C++`, mas com uma sintaxe mais amigável como no `PHP`. Para importar e utilizar uma `crate`, nós adicionamos em nosso código `use crate::function;`, nesse capítulo, chamaremos `use std::io;`.
 
 Outra coisa bem legal nesse capítulo foi ver a forma com o `Rust`descreve uma variável, e explicando exatamente como fazemos para declarar variáveis que por padrão são imutáveis com `let` ou mutáveis com `let mut`. O `Rust` descreve variáveis como links para informações, fazendo uma analogia que nós conectamos uma informação a elas, e isso está super alinhado com como uma variável funciona em baixo nível, servindo basicamente como uma etiqueta para um espaço de memória.
 
-**Observações:** Por padrão variáveis, vetores e entre outros recursos no Rust são imutáveis, é sempre importante evitar o uso de `mut` caso você não saiba por que exatamente está fazendo isso, por questões de segurança quase sempre vamos preferir variáveis que não fique mudando o tempo todo, apesar do nome ser justamente variável.
+**Observações:** Por padrão variáveis, vetores e entre outros recursos no Rust são imutáveis, é sempre importante evitar o uso de `mut` caso você não saiba por que exatamente está fazendo isso, por questões de segurança quase sempre vamos preferir variáveis que não fique mudando o tempo todo, apesar do nome ser justamente, variável.
 
 ## Macros ainda não
 
