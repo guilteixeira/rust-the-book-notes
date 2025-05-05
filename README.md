@@ -38,7 +38,7 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 ### 📘 Capítulo 3: Common Programming Concepts
 - [x] 3.1 Variables and Mutability
 - [x] 3.2 Data Types
-- [ ] 3.3 Functions
+- [x] 3.3 Functions
 - [ ] 3.4 Comments
 - [ ] 3.5 Control Flow
 
