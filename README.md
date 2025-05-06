@@ -40,7 +40,7 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 - [x] 3.2 Data Types
 - [x] 3.3 Functions
 - [x] 3.4 Comments
-- [ ] 3.5 Control Flow
+- [x] 3.5 Control Flow
 
 ### 📘 Capítulo 4: Understanding Ownership
 - [ ] 4.1 What is Ownership?
@@ -163,8 +163,8 @@ Exemplos e arquivos `.rs` terão comentários inline explicando o raciocínio po
 |---|---|  
 | [1. Getting Started](chapter_01_getting_started) | ✅ Pronto |  
 | [2. Programming a Guessing Game](chapter_02_programming_a_guessing_game) | ✅ Pronto |  
-| [3. Common Programming Concepts](chapter_03_common_programming_concepts) | 🧑‍💻 Fazendo |  
-| [4. Understanding Ownership](chapter_04_understanding_ownership) | ⏳ Próximo |  
+| [3. Common Programming Concepts](chapter_03_common_programming_concepts) | ✅ Pronto |  
+| [4. Understanding Ownership](chapter_04_understanding_ownership) | 🧑‍💻 Fazendo |  
 | [5. Using Structs to Structure Related Data](chapter_05_using_structs_to_structure_related_data) | ⏳ Próximo |  
 | [6. Enums and Pattern Matching](chapter_06_enums_and_pattern_matching) | ⏳ Próximo |  
 | [7. Managing Growing Projects with Packages, Crates, and Modules](chapter_07_managing_growing_projects_with_packages_crates_and_modules) | ⏳ Próximo |  
