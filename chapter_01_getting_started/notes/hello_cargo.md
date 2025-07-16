@@ -12,6 +12,8 @@ dentro do mesmo diretório do projeto, o diretório `src/` armazena todo o códi
 **Observação:**
 > Repare que `println!` possui uma exclamação `!`, isso não é um erro de digitação, acontece que diferente da função `main` que possui `fn` para indicar que é uma função, `println!` é uma macro, acredito que o livro deve falar de macros em breve.
 
+> Lendo novamente o livro vi que na seção Hello, World!, do capitulo 1, ele aborda que as macros serão apresentadas em detalhes no capítulo 20.
+
 Eu particularmente achei isso bem legal e intuitivo, fazendo com que você desde o começo saiba como organizar minimamente o seu código. O livro deixa claro que o objetivo disto é que você entenda que todo o código do projeto deve ficar
 no diretório `src/` enquanto o diretório superior, deve conter o `Cargo.toml`, `README.md`, `LICENSE` e outros recursos de suporte ou documentação para o projeto, que não sejam código Rust.
 
