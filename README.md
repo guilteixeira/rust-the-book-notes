@@ -5,7 +5,7 @@ Este repositório é uma coletânea de anotações e exemplos práticos feitos d
 O objetivo é consolidar meu aprendizado por meio de prática ativa, testes e escrita, com foco em compreender os fundamentos da linguagem Rust e aplicá-los posteriormente na resolução de desafios no repositório [`rust-journey`](https://github.com/guilteixeira/rust-journey).
 
 
-## Estrutura
+## 🧱Estrutura
 
 Cada diretório representa um capítulo ou tópico do livro, com exemplos, testes e anotações, como por exemplo:
 
